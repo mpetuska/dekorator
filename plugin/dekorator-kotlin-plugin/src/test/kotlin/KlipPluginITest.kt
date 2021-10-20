@@ -3,11 +3,11 @@ package dev.petuska.dekorator.plugin
 import com.tschuchort.compiletesting.KotlinCompilation
 import com.tschuchort.compiletesting.SourceFile
 import dev.petuska.dekorator.plugin.test.Compiler
-import org.junit.jupiter.api.Test
 import java.io.File
 import kotlin.reflect.full.memberExtensionFunctions
 import kotlin.reflect.full.memberFunctions
 import kotlin.test.assertEquals
+import org.junit.jupiter.api.Test
 
 class KlipPluginITest {
   @Test

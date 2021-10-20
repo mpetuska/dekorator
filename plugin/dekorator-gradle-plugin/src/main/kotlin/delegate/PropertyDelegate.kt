@@ -1,9 +1,9 @@
 package dev.petuska.dekorator.plugin.delegate
 
-import org.gradle.api.Project
 import java.util.*
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
+import org.gradle.api.Project
 
 internal class PropertyDelegate<V>(
     private val project: Project,

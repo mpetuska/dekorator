@@ -3,9 +3,9 @@
  */
 package dev.petuska.dekorator.plugin
 
-import org.gradle.testfixtures.ProjectBuilder
 import kotlin.test.Test
 import kotlin.test.assertNotNull
+import org.gradle.testfixtures.ProjectBuilder
 
 /** A simple unit test for the 'dekorator' plugin. */
 class DekoratorPluginTest {

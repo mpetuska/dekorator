@@ -1,8 +1,8 @@
 package dev.petuska.dekorator.plugin.delegate
 
-import org.gradle.api.Project
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty1
+import org.gradle.api.Project
 
 internal infix fun <R, V> ReadWriteProperty<R, V?>.or(fallback: ReadWriteProperty<R, V>) =
     ChainedProperty(this, fallback)

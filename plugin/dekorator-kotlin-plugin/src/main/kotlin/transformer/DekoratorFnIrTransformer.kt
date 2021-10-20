@@ -1,6 +1,7 @@
 package dev.petuska.dekorator.plugin.transformer
 
 import dev.petuska.dekorator.plugin.util.DekoratorSettings
+import java.io.File
 import org.jetbrains.kotlin.backend.common.FileLoweringPass
 import org.jetbrains.kotlin.backend.common.IrElementTransformerVoidWithContext
 import org.jetbrains.kotlin.backend.common.extensions.IrPluginContext
@@ -13,7 +14,6 @@ import org.jetbrains.kotlin.ir.expressions.IrExpression
 import org.jetbrains.kotlin.ir.expressions.IrFunctionAccessExpression
 import org.jetbrains.kotlin.ir.symbols.IrClassSymbol
 import org.jetbrains.kotlin.util.Logger
-import java.io.File
 
 /**
  * The main worker-bee of the plugin, responsible for actually transforming the "klippable" function

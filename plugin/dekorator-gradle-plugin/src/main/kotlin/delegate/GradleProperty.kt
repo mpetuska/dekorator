@@ -1,10 +1,10 @@
 package dev.petuska.dekorator.plugin.delegate
 
-import org.gradle.api.Project
-import org.gradle.api.provider.Property
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty
+import org.gradle.api.Project
+import org.gradle.api.provider.Property
 
 internal sealed class GradleProperty<V>(
     private val property: Property<V>,
