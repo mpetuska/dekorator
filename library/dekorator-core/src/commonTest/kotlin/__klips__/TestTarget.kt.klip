@@ -1,0 +1,8 @@
+:::::>> KLIPS :::::>>
+:::::>>dev.petuska.dekorator.TestTarget.test#0:::::>>
+Prefix[immutable]: hello
+:::::>>dev.petuska.dekorator.TestTarget.test#1:::::>>
+Prefix[mutable]: hello
+:::::>>dev.petuska.dekorator.TestTarget.test#2:::::>>
+Prefix[mutable]: not hello
+:::::>>:::::>>:::::>>

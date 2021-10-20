@@ -1,0 +1,8 @@
+:::::>> KLIPS :::::>>
+:::::>>sandbox.test.CommonTest.test#0:::::>>
+Prefix[immutable]: hello
+:::::>>sandbox.test.CommonTest.test#1:::::>>
+Prefix[mutable]: hello
+:::::>>sandbox.test.CommonTest.test#2:::::>>
+Prefix[mutable]: not hello
+:::::>>:::::>>:::::>>
