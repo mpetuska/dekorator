@@ -7,7 +7,7 @@ pluginManagement {
 
 plugins {
   id("de.fayard.refreshVersions") version "0.23.0"
-  id("com.gradle.enterprise") version "3.7.1"
+  id("com.gradle.enterprise") version "3.8"
 }
 
 rootProject.name = "dekorator"
